@@ -1,8 +1,8 @@
 # Awesome PHP
 一个PHP资源列表，内容包括：库、框架、模板、安全、代码分析、日志、第三方库、配置工具、Web 工具、书籍、电子书、经典博文等等
-
+Commits on Jan 28, 2016
 ## 贡献
-详细内容请查看[贡献](https://github.com/ziadoz/awesome-php/blob/master/CONTRIBUTING.md).
+详细内容请查看[贡献](https://github.com/ziadoz/awesome-php/blob/master/CONTRIBUTING.md) 和 [代码管理](https://github.com/ziadoz/awesome-php/blob/master/CODE-OF-CONDUCT.md).
 
 ## 目录
 - [Awesome PHP](#awesome-php)
@@ -99,6 +99,7 @@
 * [NameSpacer](https://github.com/ralphschindler/Namespacer) - 一个转化下划线到命名空间的库
 * [Patch Installer](https://github.com/goatherd/patch-installer) - 一个使用Composer安装补丁的库
 * [Composer Checker](https://github.com/silpion/composer-checker) - 一个校验Composer配置的工具
+* [Prestissimo](https://github.com/hirak/prestissimo) - 一个能够并行安装的Composer插件
 
 ## 框架 Frameworks
 *Web开发框架*
@@ -171,6 +172,7 @@
 
 * [Sculpin](http://sculpin.io) - 转换Markdown和Twig为静态HTML的工具
 * [Phrozn](http://phrozn.info) - 另一个转换Textile，Markdown和Twig为HTML的工具
+* [Spress](http://spress.yosymfony.com) - 一个能够将Markdown和Twig转化为HTML的可扩展工具
 
 ## HTTP
 *用于HTTP和网站爬取的库*
@@ -341,7 +343,7 @@
 * [PHPCheckstyle](https://github.com/jbrooksuk/phpcheckstyle) - 一个帮助遵守特定的编码惯例的工具
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - 一个创建可定制依赖图的工具
 * [Code Climate](http://codeclimate.com) - 一个自动代码审查工具
-
+* [CLI Menu](https://github.com/php-school/cli-menu) - 一个使用有表现力的DSL构建漂亮CLI菜单的库
 
 ## Architectural
 *相关的设计模式库，组织代码编程的方法和途径*
@@ -721,7 +723,7 @@
 ## PHP安装 PHP Installation
 *在你的电脑上帮助安装和管理PHP的工具*
 
-* [HomeBrew](http://mxcl.github.com/homebrew/) - 一个OSX包管理器
+* [HomeBrew](http://brew.sh/) - 一个OSX包管理器
 * [HomeBrew PHP](https://github.com/josegonzalez/homebrew-php) - 一个HomeBrew的PHP通道
 * [PHP OSX](http://php-osx.liip.ch/) - 一个OSX下的PHP安装器
 * [PHP Brew](https://github.com/c9s/phpbrew) - 一个PHP版本管理和安装器
@@ -760,7 +762,7 @@
 * [3V4L](http://3v4l.org/) - 一个在线的PHP和HHVM shell
 * [DBV](http://dbv.vizuina.com/) - 一个数据库版本控制应用
 * [PHP Queue](https://github.com/CoderKungfu/php-queue) - A一个管理后端队列的应用
-* [Composer as a Service](http://composer.borreli.com/) - 作为一个zip文件下载Composer包的工具
+* [Composer as a Service](https://composer.borreli.com/) - 作为一个zip文件下载Composer包的工具
 * [MailCatcher](https://github.com/sj26/mailcatcher) - 一个抓取和查看邮件的web工具
 * [Cachet](https://github.com/cachethq/cachet) - 开源状态页面系统
 
