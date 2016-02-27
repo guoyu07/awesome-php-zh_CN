@@ -99,7 +99,12 @@
 * [NameSpacer](https://github.com/ralphschindler/Namespacer) - 一个转化下划线到命名空间的库
 * [Patch Installer](https://github.com/goatherd/patch-installer) - 一个使用Composer安装补丁的库
 * [Composer Checker](https://github.com/silpion/composer-checker) - 一个校验Composer配置的工具
+<<<<<<< 86d5cb20a970d409314985e1c0b27bea37516814
 * [Prestissimo](https://github.com/hirak/prestissimo) - 一个开启并行安装进程的Composer插件
+=======
+* [Prestissimo](https://github.com/hirak/prestissimo) - 一个能够并行安装的Composer插件
+* [Composer Merge Plugin](https://github.com/wikimedia/composer-merge-plugin) - 一个用于合并多个composer.json文件的Composer插件
+>>>>>>> 根据英文版本，更新内容，最后一个commit为bd0c56a，2016-02-27
 
 ## 框架 Frameworks
 *Web开发框架*
@@ -618,6 +623,7 @@
 * [Cake Cache](https://github.com/cakephp/cache) - 一个缓存库 (CP)
 * [Stash](https://github.com/tedious/Stash) - 另一个缓存库
 * [CacheTool](https://github.com/gordalina/cachetool) - 一个使用命令行清除apc/opcode缓存的工具
+* [phpRedisAdmin](https://github.com/ErikDubbelboer/phpRedisAdmin) - 一个用于管理[Redis](http://redis.io/)数据库的简单web界面
 
 ## 数据结构和存储 Data Structure and Storage
 *实现数据结构和存储技术的库*
@@ -718,7 +724,7 @@
 * [print_o](https://github.com/koriym/print_o) - 一个对象图的可视化器
 * [Alias](https://github.com/fuelphp/alias) - 一个类别名库
 * [Cake Utility](https://github.com/cakephp/utility) - 工具类如Inflector，字符串，哈希，安全和XML (CP)
-* [Slimdump](https://github.com/webfactory/slimdump) - 一个简单的MySQL导出工具
+* [Slimdump](https://github.com/webfactory/slimdump) - 一个简单的MySQL dumper工具
 
 # 软件 Software
 *创建一个开发环境的软件*
