@@ -89,6 +89,7 @@
 * [Composer Installers](https://github.com/composer/installers) - 一个多框架Composer库安装器
 * [Pickle](https://github.com/FriendsOfPHP/pickle) - 一个PHP扩展安装器
 * [Melody](http://melody.sensiolabs.org/) - 一个用于构建Composer脚本文件的工具
+* [Climb](https://github.com/vinkla/climb) - 一个Composer版本管理工具
 
 ## 其他的依赖管理 Dependency Management Extras
 *其他的相关依赖管理*
@@ -96,7 +97,6 @@
 * [Satis](https://github.com/composer/satis) - 一个静态Composer存储库的生成器
 * [Toran Proxy](https://toranproxy.com) - 一个静态Composer存储库和代理
 * [Composition](https://github.com/bamarni/composition) - 一个在运行时检查Composer环境的库
-* [Version](https://github.com/kherge-abandoned/php-version) - 一个语义版本的解析和比较库
 * [NameSpacer](https://github.com/ralphschindler/Namespacer) - 一个转化下划线到命名空间的库
 * [Patch Installer](https://github.com/goatherd/patch-installer) - 一个使用Composer安装补丁的库
 * [Composer Checker](https://github.com/silpion/composer-checker) - 一个校验Composer配置的工具
@@ -160,7 +160,7 @@
 * [Fast Route](https://github.com/nikic/FastRoute) - 一个快速路由的库
 * [Route](https://github.com/thephpleague/route) - 一个基于Fast Route的路由的库
 * [Pux](https://github.com/c9s/Pux) - 另一个快速路由的库
-* [Klein](https://github.com/chriso/klein.php) - 一个灵活的路由的库.
+* [Klein](https://github.com/klein/klein.php) - 一个灵活的路由的库.
 
 ## 模板 Templating
 *模板化和词法分析的库和工具*
@@ -216,6 +216,7 @@
 * [Stampie](https://github.com/henrikbjorn/Stampie) - 一个邮件服务库，类似于[SendGrid](http://sendgrid.com),[PostMark](https://postmarkapp.com),[MailGun](http://www.mailgun.com)和[Mandrill](http://www.mandrill.com).
 * [CssToInlineStyles](https://github.com/tijsverkoyen/CssToInlineStyles) - 一个在邮件模板中的内联CSS库
 * [Email Validator](https://github.com/nojacko/email-validator) - 一个较小的电子邮件验证库
+* [Mautic](https://github.com/mautic/mautic) - 邮件营销自动化
 
 ## 文件 Files
 *文件处理和MIME类型检测的库*
@@ -227,7 +228,6 @@
 * [Ferret](https://github.com/versionable/Ferret) - 一个MIME检测库
 * [Hoa Mime](https://github.com/hoaproject/Mime) - 另一个MIME检测库
 * [Lurker](https://github.com/henrikbjorn/Lurker) - 一个资源跟踪库
-* [PHP File Locator](https://github.com/kherge-abandoned/php-file-locator) - 一个在大型项目定位文件的库
 * [PHP FFmpeg](https://github.com/PHP-FFmpeg/PHP-FFmpeg/) - 一个用于[FFmpeg](http://www.ffmpeg.org/)视频包装的库
 * [CSV](https://github.com/thephpleague/csv) - 一个CSV数据处理库
 
@@ -240,7 +240,7 @@
 *实现依赖注入设计模式的库*
 
 * [Pimple](http://pimple.sensiolabs.org/) - 一个小的依赖注入容器
-* [Auryn](https://github.com/rdlowrey/Auryn) - 另一个依赖注入容器
+* [Auryn](https://github.com/rdlowrey/Auryn) - 一个递归的依赖注入容器
 * [Container](https://github.com/thephpleague/container) - 另一个可伸缩的依赖注入容器
 * [PHP-DI](http://php-di.org/) - 一个支持自动装配和PHP配置的依赖注入容器
 * [Acclimate](https://github.com/jeremeamia/acclimate-container) - 一个依赖注入容器和服务定位的通用接口
@@ -258,6 +258,7 @@
 * [Color Extractor](https://github.com/thephpleague/color-extractor) - 一个从图像中提取颜色的库
 * [Glide](https://github.com/thephpleague/glide) - 一个按需处理图像的库
 * [Image Optimizer](https://github.com/psliwa/image-optimizer) - 一个优化图像的库
+* [Image Hash](https://github.com/jenssegers/imagehash) - 一个用于生成图像哈希感知的库
 
 ## 测试 Testing
 *测试代码和生成测试数据的库*
@@ -283,6 +284,7 @@
 * [VFS](https://github.com/adlawson/php-vfs) - 另一个用于测试虚拟的文件系统
 * [Locust](http://locust.io/) - 一个用Python编写的现代加载测试库
 * [Peridot](https://github.com/peridot-php/peridot) - 一个事件驱动开发的测试框架
+* [Kahlan](https://github.com/crysalead/kahlan) - 全栈Unit/BDD测试框架，内置stub，mock和代码覆盖率的支持
 
 ## 持续集成 Continuous Integration
 *持续集成的库和应用*
@@ -301,6 +303,7 @@
 * [APIGen](https://github.com/apigen/apigen) - 另一个API文档生成器
 * [PHP Documentor 2](https://github.com/phpDocumentor/phpDocumentor2) - 一个API文档生成器
 * [phpDox](http://phpdox.de/) - 一个PHP项目的文档生成器（不限于API文档）
+* [daux.io](https://github.com/justinwalsh/daux.io) - 一个使用Markdown文件的文档生成器
 
 ## 安全 Security
 *生成安全的随机数，加密数据，扫描漏洞的库*
@@ -317,6 +320,7 @@
 * [SensioLabs Security Check](https://security.sensiolabs.org/) - 一个为检查Composer依赖提供安全建议的web工具
 * [Zed](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - 一个集成的web应用渗透测试工具
 * [VAddy](http://vaddy.net) - 一个持续安全的web应用测试平台
+* [Optimus](https://github.com/jenssegers/optimus) - 基于Knuth乘法散列方法的身份混淆工具
 
 ## 密码 Passwords
 *处理和存储密码的库和工具*
@@ -336,7 +340,7 @@
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - 一个PHP实现的PHP虚拟机
 * [PHPSandbox](https://github.com/fieryprophet/php-sandbox) - 一个PHP沙盒环境
 * [Dissect](https://github.com/jakubledl/dissect) - 一个词法和语法分析的工具集合
-* [PHP Mess Detector](http://phpmd.org/) - 一个扫描代码缺陷，次优代码，未使用的参数等等的库。
+* [PHP Mess Detector](https://phpmd.org/) - 一个扫描代码缺陷，次优代码，未使用的参数等等的库。
 * [PHP Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer) - 一个检测PHP、CSS和JS代码标准冲突的库
 * [PHPCPD](https://github.com/sebastianbergmann/phpcpd) - 一个检测复制和粘贴代码的库
 * [PHP Analyser](https://github.com/scrutinizer-ci/php-analyzer) - 一个分析PHP代码查找缺陷和错误的库
@@ -366,8 +370,8 @@
 * [Galapagos](https://github.com/endel/galapagos) - 语言转换进化
 * [Design Patterns PHP](https://github.com/domnikl/DesignPatternsPHP) - 一个使用PHP实现的设计模式存储库
 * [Functional PHP](https://github.com/lstrojny/functional-php) - 一个函数式编程库
-* [Lib Accessor](https://github.com/kherge-abandoned/lib-accessor) - 一个简化访问的库
 * [Iter](https://github.com/nikic/iter) - 一个使用生成器提供迭代原语的库
+* [Pipeline](https://github.com/thephpleague/pipeline) - 一个管道模式的实现
 
 ## 调试和分析 Debugging and Profiling
 *调试和分析代码的库和工具*
@@ -387,7 +391,6 @@
 ## 构建工具 Build Tools
 *项目构建和自动化工具*
 
-* [Go](https://github.com/kherge-abandoned/php-go) - 一个简单的PHP构建工具
 * [Bob](https://github.com/CHH/bob) - 一个简单的项目自动化工具
 * [Phake](https://github.com/jaz303/phake) - 一个PHP克隆库
 * [Box](https://github.com/box-project/box2) - 一个构建PHAR文件的工具
@@ -465,7 +468,8 @@
 
 * [Snappy](https://github.com/KnpLabs/snappy) - 一个PDF和图像生成器库
 * [WKHTMLToPDF](https://github.com/wkhtmltopdf/wkhtmltopdf) - 一个将HTML转换为PDF的工具
-* [PHPPdf](https://github.com/psliwa/PHPPdf) - 一个将XML文件转化为PDF和图片的库
+* [PHPPdf](https://github.com/psliwa/PHPPdf) - 一个将XML文件转换为PDF和图片的库
+* [Dompdf](https://github.com/dompdf/dompdf) - 一个将HTML转换为PDF的工具
 
 ## Office
 *Libraries for working with office suite documents.*
@@ -497,6 +501,7 @@
 * [Phinx](https://github.com/robmorgan/phinx) - 另一个数据库迁移的管理库
 * [Migrations](https://github.com/icomefromthenet/Migrations) - 一个迁移管理库
 * [Doctrine Migrations](http://docs.doctrine-project.org/projects/doctrine-migrations/en/latest/toc.html) - 一个Doctrine的迁移库
+* [Ruckusing](https://github.com/ruckus/ruckusing-migrations) - 基于PHP下ActiveRecord的数据库迁移，支持MySQL, Postgres, SQLite
 
 ## NoSQL
 *处理NoSQL后端的库*
@@ -586,6 +591,7 @@
 * [UA Parser](https://github.com/tobie/ua-parser/tree/master/php) - 一个解析user agent字符串的库
 * [Device Detector](https://github.com/piwik/device-detector) - 另一个解析user agent字符串的库
 * [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) - 一个用于检测移动设备的轻量级PHP类(包括平板电脑)
+* [Agent](https://github.com/jenssegers/agent) - 一个基于Mobiledetect的桌面／手机端user agent解析库
 
 ## 数字 Numbers
 *处理数字的库*
@@ -632,6 +638,7 @@
 * [phpRedisAdmin](https://github.com/ErikDubbelboer/phpRedisAdmin) - 一个用于管理[Redis](http://redis.io/)数据库的简单web界面
 * [phpPgAdmin](https://github.com/phppgadmin/phppgadmin) - 一个PostgreSQL的web管理工具
 * [phpMyAdmin](https://github.com/phpmyadmin/phpmyadmin) - 一个MySQL/MariaDB的web界面
+* [Adminer](https://www.adminer.org/) - 一个数据库管理工具
 * [Grav](https://github.com/getgrav/grav) - 一个现代的flat－file的CMS
 
 ## 数据结构和存储 Data Structure and Storage
@@ -639,9 +646,9 @@
 
 * [Ardent](https://github.com/morrisonlevi/Ardent) - 一个数据结构库
 * [PHP Collections](https://github.com/schmittjoh/php-collection) - 一个简单的集合库
+* [Collections](https://github.com/italolelis/collections) - 一个PHP的集合抽象库
 * [Serializer](https://github.com/schmittjoh/serializer) - 一个序列化和反序列化数据的库
 * [Zend Serializer](https://github.com/zendframework/zend-serializer) - 另一个序列化和反序列化数据的库 (ZF2)
-* [PHP Object Storage](https://github.com/kherge-abandoned/php-object-storage) - 一个对象存储库
 * [Fractal](https://github.com/thephpleague/fractal) - 一个转换复杂数据结构到JSON输出的库
 * [Totem](https://github.com/Wisembly/Totem) - -一个管理和创建数据交换集的库
 * [PINQ](https://github.com/TimeToogo/Pinq) - 一个基于.NET实现的PHP的LINQ(Language Integrated Query)库
@@ -725,7 +732,6 @@
 * [Flux](https://github.com/selvinortiz/flux) - 一个正则表达式构建库
 * [PHPCR](https://github.com/phpcr/phpcr) - 一个Java内容存储库(JCR)的PHP实现
 * [ClassPreloader](https://github.com/ClassPreloader/ClassPreloader) - 一个优化自动加载的库
-* [Lib Country](https://github.com/kherge-abandoned/lib-country) - 一个国家和地区数据的库
 * [PHPStack](http://dunkels.com/adam/phpstack/) - 一个PHP编写的TCP/IP栈概念
 * [Nmap](https://github.com/willdurand/nmap) - 一个[Nmap](https://nmap.org/) PHP包装器
 * [Lambda PHP](https://github.com/igorw/lambda-php) - 一个PHP中的Lambda计算解析器
@@ -765,7 +771,7 @@
 *相关的PHP虚拟机*
 
 * [HHVM](https://github.com/facebook/hhvm) - Facebook出品的PHP虚拟机，Runtime和JIT
-* [HippyVM](http://hippyvm.com/) - 另一个PHP虚拟机
+* [HippyVM](https://github.com/hippyvm/hippyvm) - 另一个PHP虚拟机
 * [Hack](http://hacklang.org/) - 一个PHP进行无缝操作的HHVM编程语言
 
 ## 集成开发环境(IDE) Integrated Development Environment
@@ -804,7 +810,7 @@
 * [PHP UG](http://php.ug) - 一个帮助用户定位最近的PHP用户组(UG)的网站
 * [Seven PHP](http://7php.com/) - 一个PHP社区成员采访的网站
 * [Nomad PHP](https://nomadphp.com/) - 一个在线PHP学习资源
-* [PHP School](http://www.phpschool.io/) - 学习PHP的开源资源
+* [PHP School](https://www.phpschool.io/) - 学习PHP的开源资源
 * [PHP Mentoring](http://phpmentoring.org/) - 点对点PHP导师组织
 * [PHPTrends](http://phptrends.com/) - 一个快速增长的PHP类库的概述
 * [PHP Versions](http://phpversions.info/) - 哪些版本的PHP可以用在哪几种流行的Web主机上的列表
@@ -832,24 +838,25 @@
 * [Securing PHP: Core Concepts](https://leanpub.com/securingphp-coreconcepts) - 一本Chris Cornutt关于PHP常见安全条款和实践的书
 * [Modernising Legacy Applications in PHP](https://leanpub.com/mlaphp) - 一本Paul M.Jones关于遗留PHP应用进行现代化的书
 * [Modern PHP New Features and Good Practices](http://shop.oreilly.com/product/0636920033868.do) - 一本Josh Lockhart关于新的PHP功能和最佳做法的书
+* [Functional Programming in PHP](https://www.phparch.com/books/functional-programming-in-php/) - 这本书将告诉你如何利用PHP5.3+的新功能的认识函数式编程的原则
 
 ## 其他书籍 Other Books
 *与一般计算和web开发相关的书*
 
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php) - William Shotts关于Linux命令行的一本书
 * [Understanding Computation](http://computationbook.com) - Tom Stuart关于计算理论的一本书
-* [The Tangled Web — Securing Web Applications](http://www.amazon.ca/The-Tangled-Web-Securing-Applications/dp/1593273886) - Michal Zalewski关于web应用安全的一本书
+* [The Tangled Web — Securing Web Applications](http://www.amazon.com/The-Tangled-Web-Securing-Applications/dp/1593273886) - Michal Zalewski关于web应用安全的一本书
 * [Elasticsearch: The Definitive Guide](https://www.elastic.co/guide/index.html) - Clinton Cormley和Zachary Tong编写的与Elasticsearch工作的一本指南
 * [Eloquent JavaScript](http://eloquentjavascript.net/) - Marijin Haverbeke关于JavaScript编程的一本书
 * [Vagrant Cookbook](https://leanpub.com/vagrantcookbook) - Erika Heidi关于创建 Vagrant环境的一本书
-* [Pro Git](http://git-scm.com/book/en/v2) - Scott Chacon和Ben Straub关于Git的一本书
+* [Pro Git](https://git-scm.com/book/en/v2) - Scott Chacon和Ben Straub关于Git的一本书
 * [Head First Design Patterns](http://www.headfirstlabs.com/books/hfdp/) - 解说软件设计模式的一本书
 
 ## PHP视频 PHP Videos
 *PHP相关的非常不错的视频*
 
 * [Taking PHP Seriously](http://www.infoq.com/presentations/php-history) - 来自Facebook Keith Adams 讲述PHP优势
-* [PHP Town Hall](http://phptownhall.com/) - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
+* [PHP Town Hall](https://phptownhall.com/) - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
 * [Programming with Anthony](https://www.youtube.com/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW) - Anthony Ferrara的视频系列
 * [PHP UK Conference](https://www.youtube.com/user/phpukconference/videos) - 一个PHP英国会议的视频集合
 
