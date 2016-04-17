@@ -16,10 +16,11 @@
     - [路由 Routers](#路由-routers)
     - [模板 Templating](#模板-templating)
     - [静态站点生成器 Static Site Generators](#静态站点生成器-static-site-generators)
-    - [HTTP](#http)
+    - [超文本传输协议 HTTP](#超文本传输协议-http)
+    - [爬虫 Scraping](#爬虫-scraping)
     - [中间件 Middlewares](#中间件-middlewares)
-    - [URL](#url)
-    - [Email](#email)
+    - [网址 URL](#网址-url)
+    - [电子邮件 Email](#电子邮件-email)
     - [文件 Files](#文件-files)
     - [流 Streams](#流-streams)
     - [依赖注入 Dependency Injection](#依赖注入-dependency-injection)
@@ -30,7 +31,7 @@
     - [安全 Security](#安全-security)
     - [密码 Passwords](#密码-passwords)
     - [代码分析 Code Analysis](#代码分析-code-analysis)
-    - [Architectural](#architectural)
+    - [Architectural Architectural](#architectural-architectural)
     - [调试和分析 Debugging and Profiling](#调试和分析-debugging-and-profiling)
     - [构建工具 Build Tools](#构建工具-build-tools)
     - [任务运行器 Task Runners](#任务运行器-task-runners)
@@ -41,11 +42,11 @@
     - [事件 Event](#事件-event)
     - [日志 Logging](#日志-logging)
     - [电子商务 E-commerce](#电子商务-e-commerce)
-    - [PDF](#pdf)
-    - [Office](#office)
+    - [PDF PDF](#pdf-pdf)
+    - [Office Office](#office-office)
     - [数据库 Database](#数据库-database)
     - [迁移 Migrations](#迁移-migrations)
-    - [NoSQL](#nosql)
+    - [NoSQL NoSQL](#nosql-nosql)
     - [队列 Queue](#队列-queue)
     - [搜索 Search](#搜索-search)
     - [命令行 Command Line](#命令行-command-line)
@@ -54,7 +55,7 @@
     - [字符串 Strings](#字符串-strings)
     - [数字 Numbers](#数字-numbers)
     - [过滤和验证 Filtering and Validation](#过滤和验证-filtering-and-validation)
-    - [API](#api)
+    - [API API](#api-api)
     - [缓存 Caching](#缓存-caching)
     - [数据结构和存储 Data Structure and Storage](#数据结构和存储-data-structure-and-storage)
     - [通知 Notifications](#通知-notifications)
@@ -177,7 +178,7 @@
 * [Sculpin](https://sculpin.io) - 转换Markdown和Twig为静态HTML的工具
 * [Spress](http://spress.yosymfony.com) - 一个能够将Markdown和Twig转化为HTML的可扩展工具
 
-## HTTP
+## 超文本传输协议 HTTP
 *用于HTTP的库*
 
 * [Buzz](https://github.com/kriswallsmith/Buzz) - 另一个HTTP客户端
@@ -187,7 +188,7 @@
 * [Requests](https://github.com/rmccue/Requests) - 一个简单的HTTP库
 * [Retrofit](https://github.com/tebru/retrofit-php) - 一个能轻松创建REST API客户端的库
 
-## Scraping
+## 爬虫 Scraping
 *用于网站爬取的库*
 
 * [Embed](https://github.com/oscarotero/Embed) -  一个从web服务或网页中提取的信息的工具
@@ -203,25 +204,25 @@
 * [Stack](https://github.com/stackphp) - 一个用于Silex/Symfony的可堆叠的中间件的库
 * [zend-stratigility](https://github.com/zendframework/zend-stratigility) - 基于PHP PSR-7之上的中间件之上
 
-## URL
+## 网址 URL
 *解析URL的库*
 
-* [Purl](https://github.com/jwage/purl) - 一个URL处理库
-* [Uri](https://github.com/thephpleague/uri) - 另一个URL处理库
 * [PHP Domain Parser](https://github.com/jeremykendall/php-domain-parser) - 一个本地前缀解析库
+* [Purl](https://github.com/jwage/purl) - 一个URL处理库
 * [sabre/uri](https://github.com/fruux/sabre-uri) - 一个URI操作库
+* [Uri](https://github.com/thephpleague/uri) - 另一个URL处理库
 
-## Email
+## 电子邮件 Email
 *发送和解析邮件的库*
 
-* [SwiftMailer](http://swiftmailer.org/) - 一个邮件解决方案
-* [PHPMailer](https://github.com/PHPMailer/PHPMailer) - 另一个邮件解决方案
-* [Fetch](https://github.com/tedious/Fetch) - 一个IMAP库
-* [Email Reply Parser](https://github.com/willdurand/EmailReplyParser) - 一个邮件回复解析的库
-* [Stampie](https://github.com/henrikbjorn/Stampie) - 一个邮件服务库，类似于[SendGrid](http://sendgrid.com),[PostMark](https://postmarkapp.com),[MailGun](http://www.mailgun.com)和[Mandrill](http://www.mandrill.com).
 * [CssToInlineStyles](https://github.com/tijsverkoyen/CssToInlineStyles) - 一个在邮件模板中的内联CSS库
+* [Email Reply Parser](https://github.com/willdurand/EmailReplyParser) - 一个邮件回复解析的库
 * [Email Validator](https://github.com/nojacko/email-validator) - 一个较小的电子邮件验证库
+* [Fetch](https://github.com/tedious/Fetch) - 一个IMAP库
 * [Mautic](https://github.com/mautic/mautic) - 邮件营销自动化
+* [PHPMailer](https://github.com/PHPMailer/PHPMailer) - 另一个邮件解决方案
+* [Stampie](https://github.com/henrikbjorn/Stampie) - 一个邮件服务库，类似于[SendGrid](http://sendgrid.com),[PostMark](https://postmarkapp.com),[MailGun](http://www.mailgun.com)和[Mandrill](http://www.mandrill.com).
+* [SwiftMailer](http://swiftmailer.org/) - 一个邮件解决方案
 
 ## 文件 Files
 *文件处理和MIME类型检测的库*
@@ -244,26 +245,26 @@
 ## 依赖注入 Dependency Injection
 *实现依赖注入设计模式的库*
 
-* [Pimple](http://pimple.sensiolabs.org/) - 一个小的依赖注入容器
+* [Acclimate](https://github.com/jeremeamia/acclimate-container) - 一个依赖注入容器和服务定位的通用接口
 * [Auryn](https://github.com/rdlowrey/Auryn) - 一个递归的依赖注入容器
 * [Container](https://github.com/thephpleague/container) - 另一个可伸缩的依赖注入容器
 * [PHP-DI](http://php-di.org/) - 一个支持自动装配和PHP配置的依赖注入容器
-* [Acclimate](https://github.com/jeremeamia/acclimate-container) - 一个依赖注入容器和服务定位的通用接口
+* [Pimple](http://pimple.sensiolabs.org/) - 一个小的依赖注入容器
 * [Symfony DI](https://github.com/symfony/dependency-injection) - 一个依赖注入容器组件 (SF2)
 
 ## 图像 Imagery
 *处理图像的库*
 
-* [Imagine](http://imagine.readthedocs.org/en/latest/index.html) - 一个图像处理库
-* [PHP Image Workshop](https://github.com/Sybio/ImageWorkshop) - 另一个图像处理库
-* [Intervention Image](https://github.com/Intervention/image) - 另一个图像处理库
-* [GIF Frame Extractor](https://github.com/Sybio/GifFrameExtractor) - 一个提取GIF动画帧信息的库
-* [GIF Creator](https://github.com/Sybio/GifCreator) - 一个通过多张图片创建GIF动画的库
-* [Image With Text](https://github.com/nmcteam/image-with-text) - 一个在图像中嵌入文本的库
 * [Color Extractor](https://github.com/thephpleague/color-extractor) - 一个从图像中提取颜色的库
+* [GIF Creator](https://github.com/Sybio/GifCreator) - 一个通过多张图片创建GIF动画的库
+* [GIF Frame Extractor](https://github.com/Sybio/GifFrameExtractor) - 一个提取GIF动画帧信息的库
 * [Glide](https://github.com/thephpleague/glide) - 一个按需处理图像的库
-* [Image Optimizer](https://github.com/psliwa/image-optimizer) - 一个优化图像的库
 * [Image Hash](https://github.com/jenssegers/imagehash) - 一个用于生成图像哈希感知的库
+* [Image Optimizer](https://github.com/psliwa/image-optimizer) - 一个优化图像的库
+* [Imagine](http://imagine.readthedocs.org/en/latest/index.html) - 一个图像处理库
+* [Image With Text](https://github.com/nmcteam/image-with-text) - 一个在图像中嵌入文本的库
+* [Intervention Image](https://github.com/Intervention/image) - 另一个图像处理库
+* [PHP Image Workshop](https://github.com/Sybio/ImageWorkshop) - 另一个图像处理库
 
 ## 测试 Testing
 *测试代码和生成测试数据的库*
@@ -367,7 +368,7 @@
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - 一个创建可定制依赖图的工具
 * [Code Climate](http://codeclimate.com) - 一个自动代码审查工具
 
-## Architectural
+## Architectural Architectural
 *相关的设计模式库，组织代码编程的方法和途径*
 
 * [PHP Option](https://github.com/schmittjoh/php-option) - 一个可选的类型库
@@ -477,7 +478,7 @@
 * [Sylius](http://sylius.org/) - 一个开源的电子商务解决方案
 * [Thelia](http://thelia.net/) - 另一个开源的电子商务解决方案
 
-## PDF
+## PDF PDF
 *处理PDF文件的库和软件*
 
 * [Dompdf](https://github.com/dompdf/dompdf) - 一个将HTML转换为PDF的工具
@@ -485,7 +486,7 @@
 * [Snappy](https://github.com/KnpLabs/snappy) - 一个PDF和图像生成器库
 * [WKHTMLToPDF](https://github.com/wkhtmltopdf/wkhtmltopdf) - 一个将HTML转换为PDF的工具
 
-## Office
+## Office Office
 *Libraries for working with office suite documents.*
 
 * [ExcelAnt](https://github.com/Wisembly/ExcelAnt) - 一个操作Excel文档的库
@@ -517,7 +518,7 @@
 * [Doctrine Migrations](http://docs.doctrine-project.org/projects/doctrine-migrations/en/latest/toc.html) - 一个Doctrine的迁移库
 * [Ruckusing](https://github.com/ruckus/ruckusing-migrations) - 基于PHP下ActiveRecord的数据库迁移，支持MySQL, Postgres, SQLite
 
-## NoSQL
+## NoSQL NoSQL
 *处理NoSQL后端的库*
 
 * [Monga](https://github.com/thephpleague/monga) - 一个MongoDB抽象库
@@ -632,7 +633,7 @@
 * [Valitron](https://github.com/vlucas/valitron) - 另一个验证库
 * [Volan](https://github.com/serkin/Volan) - 另一个简单的验证库
 
-## API
+## API API
 *开发REST-ful API的库和web工具*
 
 * [API Platform](https://api-platform.com) - 暴露出REST API的项目，包含JSON-LD, Hydra格式
