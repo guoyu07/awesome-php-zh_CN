@@ -683,7 +683,7 @@
 * [Collections](https://github.com/italolelis/collections) - 一个PHP的集合抽象库
 * [Fractal](https://github.com/thephpleague/fractal) - 一个转换复杂数据结构到JSON输出的库
 * [Ginq](https://github.com/akanehara/ginq) - 另一个基于.NET实现的PHP的LINQ库
-* [JsonMapper](https://github.com/netresearch/jsonmapper) - 一个将内嵌JSON结构映射为PHP类的库
+* [JsonMapper](https://github.com/cweiske/jsonmapper) - 一个将内嵌JSON结构映射为PHP类的库
 * [PHP Collections](https://github.com/schmittjoh/php-collection) - 一个简单的集合库
 * [PINQ](https://github.com/TimeToogo/Pinq) - 一个基于.NET实现的PHP的LINQ(Language Integrated Query)库
 * [Serializer](https://github.com/schmittjoh/serializer) - 一个序列化和反序列化数据的库
@@ -739,7 +739,6 @@
 ## 杂项 Miscellaneous
 *创建一个开发环境的软件*
 
-* [Alias](https://github.com/fuelphp/alias) - 一个类别名库
 * [Annotations](https://github.com/doctrine/annotations) - 一个注释库(Doctrine的一部分)
 * [Cake Utility](https://github.com/cakephp/utility) - 工具类如Inflector，字符串，哈希，安全和XML (CP)
 * [Chief](https://github.com/adamnicholson/Chief) - 一个命令总线库
