@@ -85,7 +85,6 @@
 ## 依赖管理 Dependency Management
 *依赖和包管理库*
 
-* [Climb](https://github.com/vinkla/climb) - 一个Composer版本管理工具
 * [Composer Installers](https://github.com/composer/installers) - 一个多框架Composer库安装器
 * [Composer](https://getcomposer.org/)/[Packagist](https://packagist.org/) - 一个包和依赖管理器
 * [Melody](http://melody.sensiolabs.org/) - 一个用于构建Composer脚本文件的工具
