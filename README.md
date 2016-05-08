@@ -266,7 +266,7 @@
 * [Image Hash](https://github.com/jenssegers/imagehash) - 一个用于生成图像哈希感知的库
 * [Image Optimizer](https://github.com/psliwa/image-optimizer) - 一个优化图像的库
 * [Image With Text](https://github.com/nmcteam/image-with-text) - 一个在图像中嵌入文本的库
-* [Imagine](http://imagine.readthedocs.org/en/latest/index.html) - 一个图像处理库
+* [Imagine](http://imagine.readthedocs.io/en/latest/index.html) - 一个图像处理库
 * [Intervention Image](https://github.com/Intervention/image) - 另一个图像处理库
 * [PHP Image Workshop](https://github.com/Sybio/ImageWorkshop) - 另一个图像处理库
 
@@ -289,6 +289,7 @@
 * [Phake](https://github.com/mlively/Phake) - 另一个用于测试的模拟对象的库
 * [Pho](https://github.com/danielstjules/pho) - 另一个行为驱动开发测试框架
 * [PHPSpec](https://github.com/phpspec/phpspec) - 一个基于功能点设计的单元测试库
+* [PHPT](https://qa.php.net/write-test.php) - 一个使用PHP本身的测试工具
 * [PHPUnit](https://github.com/sebastianbergmann/phpunit) - 一个单元测试框架
 * [Prophecy](https://github.com/phpspec/prophecy) - 一个可选度很高的模拟框架
 * [Samsui](https://github.com/mauris/samsui) - 另一个伪数据生成库
@@ -840,7 +841,7 @@
 * [PHP FIG](http://www.php-fig.org/) - PHP框架交互组
 * [PHP Mentoring](http://phpmentoring.org/) - 点对点PHP导师组织
 * [PHP School](https://www.phpschool.io/) - 学习PHP的开源资源
-* [PHP Security](http://phpsecurity.readthedocs.org/en/latest/index.html) - 一个PHP安全指南
+* [PHP Security](http://phpsecurity.readthedocs.io/en/latest/index.html) - 一个PHP安全指南
 * [PHP The Right Way](http://www.phptherightway.com/) - 一个PHP最佳实践的快速指引手册
 * [PHP UG](http://php.ug) - 一个帮助用户定位最近的PHP用户组(UG)的网站
 * [PHP Versions](http://phpversions.info/) - 哪些版本的PHP可以用在哪几种流行的Web主机上的列表
@@ -883,7 +884,7 @@
 * [Head First Design Patterns](http://www.headfirstlabs.com/books/hfdp/) - 解说软件设计模式的一本书
 * [Pro Git](https://git-scm.com/book/en/v2) - Scott Chacon和Ben Straub关于Git的一本书
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php) - William Shotts关于Linux命令行的一本书
-* [The Tangled Web — Securing Web Applications](http://www.amazon.com/The-Tangled-Web-Securing-Applications/dp/1593273886) - Michal Zalewski关于web应用安全的一本书
+* [The Tangled Web — Securing Web Applications](http://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) - Michal Zalewski关于web应用安全的一本书
 * [Understanding Computation](http://computationbook.com) - Tom Stuart关于计算理论的一本书
 * [Vagrant Cookbook](https://leanpub.com/vagrantcookbook) - Erika Heidi关于创建 Vagrant环境的一本书
 
