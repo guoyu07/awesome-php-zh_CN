@@ -374,6 +374,7 @@
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) - 一个用于运行质量保证工具的工具(phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - 一个PHP实现的PHP虚拟机
 * [PHPSandbox](https://github.com/fieryprophet/php-sandbox) - 一个PHP沙盒环境
+* [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - 一个可视化指标和源代码的工具
 * [Scrutinizer](https://scrutinizer-ci.com/) - 一个审查PHP代码的web工具
 * [UBench](https://github.com/devster/ubench) - 一个简单的微型基准检测库
 
@@ -756,6 +757,7 @@
 * [Lambda PHP](https://github.com/igorw/lambda-php) - 一个PHP中的Lambda计算解析器
 * [LiteCQRS](https://github.com/beberlei/litecqrs-php) - 一个CQRS(命令查询责任分离)库
 * [Metrics](https://github.com/beberlei/metrics) - 一个简单的度量API库
+* [noCAPTCHA](https://github.com/ARCANEDEV/noCAPTCHA) - 一个帮助使用谷歌noCAPTCHA (reCAPTCHA)的工具
 * [Nmap](https://github.com/willdurand/nmap) - 一个[Nmap](https://nmap.org/) PHP包装器
 * [Opengraph](https://github.com/euskadi31/Opengraph) - 一个开放图库
 * [Pagerfanta](https://github.com/whiteoctober/Pagerfanta) - 一个分页库
@@ -894,7 +896,7 @@
 * [PHP Town Hall](https://phptownhall.com/) - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
 * [PHP UK Conference](https://www.youtube.com/user/phpukconference/videos) - 一个PHP英国会议的视频集合
 * [Programming with Anthony](https://www.youtube.com/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW) - Anthony Ferrara的视频系列
-* [Taking PHP Seriously](http://www.infoq.com/presentations/php-history) - 来自Facebook Keith Adams 讲述PHP优势
+* [Taking PHP Seriously](https://www.infoq.com/presentations/php-history) - 来自Facebook Keith Adams 讲述PHP优势
 
 ## PHP阅读 PHP Reading
 *PHP相关的阅读资料*
