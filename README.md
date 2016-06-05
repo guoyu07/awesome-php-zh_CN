@@ -685,6 +685,7 @@
 * [Fractal](https://github.com/thephpleague/fractal) - 一个转换复杂数据结构到JSON输出的库
 * [Ginq](https://github.com/akanehara/ginq) - 另一个基于.NET实现的PHP的LINQ库
 * [JsonMapper](https://github.com/cweiske/jsonmapper) - 一个将内嵌JSON结构映射为PHP类的库
+* [Knapsack](https://github.com/DusanKasan/Knapsack) - 一个集合的库，灵感来自Clojure的相关库
 * [PHP Collections](https://github.com/schmittjoh/php-collection) - 一个简单的集合库
 * [PINQ](https://github.com/TimeToogo/Pinq) - 一个基于.NET实现的PHP的LINQ(Language Integrated Query)库
 * [Serializer](https://github.com/schmittjoh/serializer) - 一个序列化和反序列化数据的库
