@@ -116,7 +116,7 @@
 * [Yii2](https://github.com/yiisoft/yii2/) - 另一个PHP框架
 * [Zend Framework 2](http://framework.zend.com) - 另一个由独立组件组成的框架 (ZF2)
 * [Radar](https://github.com/radarphp/Radar.Adr) - 一个基于PHP的Action-Domain-Responder实现
-* [Ice](http://www.iceframework.org/) - 另一个通过C扩展实现的简单快速的PHP框架
+* [Ice](https://www.iceframework.org/) - 另一个通过C扩展实现的简单快速的PHP框架
 
 ## 其他框架 Framework Extras
 *其他Web开发框架*
@@ -202,6 +202,7 @@
 ## 中间件 Middlewares
 *使用中间件构建应用程序的库*
 
+* [Expressive](https://zendframework.github.io/zend-expressive/) - 基于PSR-7的Zend中间件
 * [PSR7-Middlewares](https://github.com/oscarotero/psr7-middlewares) - 灵感来源于方便的中间件
 * [Relay](https://github.com/relayphp/Relay.Relay) - 一个PHP 5.5 PSR-7的中间件调度器
 * [Slim Middleware](https://github.com/slimphp/Slim-Middleware) - 一个用于Slim的自定义的中间件的集合
@@ -373,7 +374,7 @@
 * [PHPLOC](https://github.com/sebastianbergmann/phploc) - 一个快速测量PHP项目大小的工具
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) - 一个用于运行质量保证工具的工具(phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - 一个PHP实现的PHP虚拟机
-* [PHPSandbox](https://github.com/fieryprophet/php-sandbox) - 一个PHP沙盒环境
+* [PHPSandbox](https://github.com/Corveda/PHPSandbox) - 一个PHP沙盒环境
 * [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - 一个可视化指标和源代码的工具
 * [Scrutinizer](https://scrutinizer-ci.com/) - 一个审查PHP代码的web工具
 * [UBench](https://github.com/devster/ubench) - 一个简单的微型基准检测库
@@ -424,7 +425,7 @@
 
 * [Bldr](http://bldr.io/) - 一个构建在Symfony组件上的PHP任务运行器
 * [Jobby](https://github.com/jobbyphp/jobby) - 一个没有修改crontab的PHP定时任务管理器
-* [Robo](https://github.com/Codegyre/Robo) - 一个面向对象配置的PHP任务运行器
+* [Robo](https://github.com/consolidation-org/Robo) - 一个面向对象配置的PHP任务运行器
 * [Task](http://taskphp.github.io/) - 一个灵感来源于Grunt和Gulp的纯PHP任务运行器
 
 ## 导航 Navigation
@@ -872,7 +873,7 @@
 * [Modern PHP New Features and Good Practices](http://shop.oreilly.com/product/0636920033868.do) - 一本Josh Lockhart关于新的PHP功能和最佳做法的书
 * [Modernising Legacy Applications in PHP](https://leanpub.com/mlaphp) - 一本Paul M.Jones关于遗留PHP应用进行现代化的书
 * [PHP 7 Upgrade Guide](https://leanpub.com/php7) - 一本Colin O'Dell的包含所有PHP 7功能和改变的书
-* [PHP Pandas](http://daylerees.com/php-pandas/) - 一本Dayle Rees关于如何学习写PHP的书
+* [PHP Pandas](https://daylerees.com/php-pandas/) - 一本Dayle Rees关于如何学习写PHP的书
 * [Scaling PHP Applications](http://www.scalingphpbook.com) - 一本Steve Corona关于扩展PHP应用程序的电子书
 * [Securing PHP: Core Concepts](https://leanpub.com/securingphp-coreconcepts) - 一本Chris Cornutt关于PHP常见安全条款和实践的书
 * [Signaling PHP](https://leanpub.com/signalingphp) - 一本Cal Evans关于在CLI脚本捕获PCNTL信号的书
@@ -887,7 +888,7 @@
 * [Head First Design Patterns](http://www.headfirstlabs.com/books/hfdp/) - 解说软件设计模式的一本书
 * [Pro Git](https://git-scm.com/book/en/v2) - Scott Chacon和Ben Straub关于Git的一本书
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php) - William Shotts关于Linux命令行的一本书
-* [The Tangled Web — Securing Web Applications](http://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) - Michal Zalewski关于web应用安全的一本书
+* [The Tangled Web — Securing Web Applications](https://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) - Michal Zalewski关于web应用安全的一本书
 * [Understanding Computation](http://computationbook.com) - Tom Stuart关于计算理论的一本书
 * [Vagrant Cookbook](https://leanpub.com/vagrantcookbook) - Erika Heidi关于创建 Vagrant环境的一本书
 
@@ -902,7 +903,7 @@
 ## PHP阅读 PHP Reading
 *PHP相关的阅读资料*
 
-* [Composer Primer](http://daylerees.com/composer-primer/) - Composer初级使用
+* [Composer Primer](https://daylerees.com/composer-primer/) - Composer初级使用
 * [Composer Stability Flags](https://igor.io/2013/02/07/composer-stability-flags.html) - 一篇关于Composer稳定性标志的文章
 * [Composer Versioning](https://igor.io/2013/01/07/composer-versioning.html) - 一篇关于Composer版本的文章
 * [Create Your Own PHP Framework](http://fabien.potencier.org/create-your-own-framework-on-top-of-the-symfony2-components-part-1.html) - 一部Fabien Potencier的关于如何创建你自己的PHP框架的系列文章
