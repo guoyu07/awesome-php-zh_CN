@@ -114,7 +114,7 @@
 * [PPI Framework 2](http://www.ppi.io) - 一个互操作性框架
 * [Symfony 2](http://symfony.com/) - 一个独立组件组成的框架 (SF2)
 * [Yii2](https://github.com/yiisoft/yii2/) - 另一个PHP框架
-* [Zend Framework 2](http://framework.zend.com) - 另一个由独立组件组成的框架 (ZF2)
+* [Zend Framework 2](https://framework.zend.com) - 另一个由独立组件组成的框架 (ZF2)
 * [Radar](https://github.com/radarphp/Radar.Adr) - 一个基于PHP的Action-Domain-Responder实现
 * [Ice](https://www.iceframework.org/) - 另一个通过C扩展实现的简单快速的PHP框架
 
@@ -171,7 +171,7 @@
 * [Plates](http://platesphp.com/) - 一个原生PHP模板库
 * [Smarty](http://www.smarty.net/) - 一个模板引擎
 * [Twig](http://twig.sensiolabs.org/) - 一个全面的模板语言
-* [Tale Jade](http://jade.talesoft.io/) - Jade模版语言的PHP实现
+* [Tale Jade](https://github.com/Talesoft/tale-jade) - Jade模版语言的PHP实现
 
 ## 静态站点生成器 Static Site Generators
 *用来生成web页面的预处理内容的工具*
@@ -368,6 +368,7 @@
 * [PHP Parser](https://github.com/nikic/PHP-Parser) - 一个PHP编写的PHP解析器
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) - 一个重构PHP代码的命令行工具集
 * [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - 一个比较两个源集和确定适当的应用语义版本的命令行实用程序
+* [phan](https://github.com/etsy/phan) - 一个基于PHP 7+和php-ast扩展的静态分析器
 * [PHPCheckstyle](https://github.com/PHPCheckstyle/phpcheckstyle) - 一个帮助遵守特定的编码惯例的工具
 * [PHPCPD](https://github.com/sebastianbergmann/phpcpd) - 一个检测复制和粘贴代码的库
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - 一个创建可定制依赖图的工具
@@ -490,7 +491,6 @@
 * [Money](https://github.com/moneyphp/money) - 一个Fowler金钱模式的PHP实现
 * [OmniPay](https://github.com/thephpleague/omnipay) - 一个框架混合了多网关支付处理的库
 * [Payum](https://github.com/payum/payum) - 一个支付抽象库
-* [Sebastian Money](https://github.com/sebastianbergmann/money) - 另一个处理货币值的库
 * [Shopware](https://github.com/shopware/shopware) - 一个可高度定制的电子商务软件
 * [Swap](https://github.com/florianv/swap) - 一个汇率库
 * [Sylius](http://sylius.org/) - 一个开源的电子商务解决方案
@@ -519,7 +519,7 @@
 * [Doctrine Extensions](https://github.com/Atlantic18/DoctrineExtensions) - 一个Doctrine行为扩展的集合
 * [Doctrine](http://www.doctrine-project.org/) - 一个全面的DBAL和ORM
 * [Eloquent](https://github.com/illuminate/database) - 一个简单的ORM(L5)
-* [LazyRecord](https://github.com/c9s/LazyRecord) - 一个简单、可扩展、高性能的ORM
+* [LazyRecord](https://github.com/corneltek/LazyRecord) - 一个简单、可扩展、高性能的ORM
 * [Pomm](https://github.com/chanmix51/Pomm) - 一个PostgreSQL对象模型管理器
 * [Propel](http://propelorm.org/) - 一个快速的ORM，迁移库和查询构架器
 * [ProxyManager](https://github.com/Ocramius/ProxyManager) - 一个为数据映射生成代理对象的工具集
@@ -825,6 +825,7 @@
 * [PHP Queue](https://github.com/CoderKungfu/php-queue) - A一个管理后端队列的应用
 * [MailCatcher](https://github.com/sj26/mailcatcher) - 一个抓取和查看邮件的web工具
 * [Cachet](https://github.com/cachethq/cachet) - 开源状态页面系统
+* [phpBeanstalkdAdmin](https://github.com/mnapoli/phpBeanstalkdAdmin) - 一个Beanstalkd的监控管理页面
 * [phpRedisAdmin](https://github.com/ErikDubbelboer/phpRedisAdmin) - 一个用于管理[Redis](http://redis.io/)数据库的简单web界面
 * [phpPgAdmin](https://github.com/phppgadmin/phppgadmin) - 一个PostgreSQL的web管理工具
 * [phpMyAdmin](https://github.com/phpmyadmin/phpmyadmin) - 一个MySQL/MariaDB的web界面
@@ -910,7 +911,7 @@
 * [Don't Worry About BREACH](http://blog.ircmaxell.com/2013/08/dont-worry-about-breach.html) - 一篇关于BREACH攻击和CSRF令牌的文章
 * [On PHP 5.3, Lambda Functions and Closures](http://fabien.potencier.org/on-php-5-3-lambda-functions-and-closures.html) - 一篇关于lambda函数和闭包的文章
 * [PHP Is Much Better Than You Think](http://fabien.potencier.org/php-is-much-better-than-you-think.html) - 一篇关于PHP语言和生态圈的文章
-* [PHP Package Checklist](http://phppackagechecklist.com/) - A checklist for successful PHP package development.
+* [PHP Package Checklist](http://phppackagechecklist.com/) - 一个成功PHP包开发的清单
 * [PHP Sucks! But I Like It!](http://blog.ircmaxell.com/2012/04/php-sucks-but-i-like-it.html) - 一篇关于PHP利弊的文章
 * [Preventing CSRF Attacks](http://blog.ircmaxell.com/2013/02/preventing-csrf-attacks.html) - 一篇阻止CSRF攻击的文章
 * [Seven Ways to Screw Up BCrypt](http://blog.ircmaxell.com/2012/12/seven-ways-to-screw-up-bcrypt.html) - 一篇关于纠正BCrypt实现的文章
