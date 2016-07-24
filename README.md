@@ -356,7 +356,7 @@
 * [Athletic](https://github.com/polyfractal/athletic) - 一个基于注释的基准检测库
 * [Code Climate](https://codeclimate.com) - 一个自动代码审查工具
 * [Dissect](https://github.com/jakubledl/dissect) - 一个词法和语法分析的工具集合
-* [Exakat](http://www.exakat.io) - 一个PHP的静态分析引擎
+* [Exakat](https://github.com/exakat/exakat) - 一个PHP的静态分析引擎
 * [GrumPHP](https://github.com/phpro/grumphp) - 一个用来保护代码质量的Composer插件
 * [Mondrian](https://github.com/Trismegiste/Mondrian) - 使用图论的代码分析工具
 * [PHP Analyser](https://github.com/scrutinizer-ci/php-analyzer) - 一个分析PHP代码查找缺陷和错误的库
@@ -457,6 +457,7 @@
 
 * [CalendR](http://yohan.giarel.li/CalendR/) - 一个日历管理库
 * [Carbon](https://github.com/briannesbitt/Carbon) - 一个简单的日期时间API扩展
+* [Chronos](https://github.com/cakephp/chronos) - 一个支持可变和不可变日期时间的DateTime API扩展
 * [ExpressiveDate](https://github.com/jasonlewis/expressive-date) - 另一个日期时间API扩展
 * [Moment.php](https://github.com/fightbulc/moment.php) - 灵感来源于Moment.js的PHP DateTime处理库，支持国际化
 
