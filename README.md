@@ -335,7 +335,7 @@
 * [SensioLabs Security Check](https://security.sensiolabs.org/) - 一个为检查Composer依赖提供安全建议的web工具
 * [TCrypto](https://github.com/timoh6/TCrypto) - 一个简单的键值加密存储库
 * [True Random](https://github.com/pixeloution/true-random) - 使用[www.random.org](https://www.random.org/)生成随机数的库
-* [VAddy](http://vaddy.net) - 一个持续安全的web应用测试平台
+* [VAddy](https://vaddy.net/) - 一个持续安全的web应用测试平台
 * [Zed](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - 一个集成的web应用渗透测试工具
 
 ## 密码 Passwords
@@ -419,7 +419,7 @@
 * [Bob](https://github.com/CHH/bob) - 一个简单的项目自动化工具
 * [Box](https://github.com/box-project/box2) - 一个构建PHAR文件的工具
 * [Phake](https://github.com/jaz303/phake) - 一个PHP克隆库
-* [Phing](http://www.phing.info/) - 一个灵感来自于Apache Ant的PHP项目构建系统
+* [Phing](https://www.phing.info/) - 一个灵感来自于Apache Ant的PHP项目构建系统
 
 ## 任务运行器 Task Runners
 *自动运行任务的库*
