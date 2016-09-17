@@ -129,7 +129,7 @@
 *来自web开发框架的独立组件*
 
 * [CakePHP Plugins](http://plugins.cakephp.org/) - CakePHP插件的目录
-* [Hoa Project](http://hoa-project.net/En/) - 另一个PHP组件包
+* [Hoa Project](https://hoa-project.net/En/) - 另一个PHP组件包
 * [League of Extraordinary Packages](https://thephpleague.com/) - 一个PHP软件开发组
 * [Symfony2 Components](http://symfony.com/doc/master/components/index.html) - Symfony 2组件
 * [Zend Framework 2 Components](https://packages.zendframework.com/) - Zend Framework 2组件
@@ -289,6 +289,7 @@
 * [Peridot](https://github.com/peridot-php/peridot) - 一个事件驱动开发的测试框架
 * [Phake](https://github.com/mlively/Phake) - 另一个用于测试的模拟对象的库
 * [Pho](https://github.com/danielstjules/pho) - 另一个行为驱动开发测试框架
+* [PHP-Mock](https://github.com/php-mock/php-mock) - 一个基于PHP函数的模拟库
 * [PHPSpec](https://github.com/phpspec/phpspec) - 一个基于功能点设计的单元测试库
 * [PHPT](https://qa.php.net/write-test.php) - 一个使用PHP本身的测试工具
 * [PHPUnit](https://github.com/sebastianbergmann/phpunit) - 一个单元测试框架
@@ -300,6 +301,7 @@
 ## 持续集成 Continuous Integration
 *持续集成的库和应用*
 
+* [CircleCI](https://circleci.com) - 一个持续集成平台
 * [GitlabCi](https://about.gitlab.com/gitlab-ci/) - 使用GitLab CI测试、构建、部署你的代码，像TravisCI
 * [Jenkins](https://jenkins.io/index.html) - 一个[PHP支持](http://jenkins-php.org/index.html)的持续集成平台
 * [JoliCi](https://github.com/jolicode/JoliCi) - 一个用PHP编写的由Docker支持的持续集成的客户端
@@ -365,6 +367,7 @@
 * [PHP Manipulator](https://github.com/schmittjoh/php-manipulator) - 一个分析和修改PHP源代码的库
 * [PHP Mess Detector](https://phpmd.org/) - 一个扫描代码缺陷，次优代码，未使用的参数等等的库。
 * [PHP Metrics](https://github.com/phpmetrics/PhpMetrics) - 一个静态测量库
+* [PHP Migration](https://github.com/monque/PHP-Migration) - 一个PHP版本升级的静态分析库
 * [PHP Parser](https://github.com/nikic/PHP-Parser) - 一个PHP编写的PHP解析器
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) - 一个重构PHP代码的命令行工具集
 * [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - 一个比较两个源集和确定适当的应用语义版本的命令行实用程序
@@ -390,7 +393,7 @@
 * [Galapagos](https://github.com/endel/galapagos) - 语言转换进化
 * [Iter](https://github.com/nikic/iter) - 一个使用生成器提供迭代原语的库
 * [Monad PHP](https://github.com/ircmaxell/monad-php) - 一个简单Monad库
-* [Patchwork](http://antecedent.github.io/patchwork/) - 一个重新定义用户的函数库
+* [Patchwork](http://patchwork2.org/) - 一个重新定义用户的函数库
 * [PHP Option](https://github.com/schmittjoh/php-option) - 一个可选的类型库
 * [Pipeline](https://github.com/thephpleague/pipeline) - 一个管道模式的实现
 * [Ruler](https://github.com/bobthecow/Ruler) - 一个简单的无状态的生产环境规则引擎
@@ -418,6 +421,7 @@
 
 * [Bob](https://github.com/CHH/bob) - 一个简单的项目自动化工具
 * [Box](https://github.com/box-project/box2) - 一个构建PHAR文件的工具
+* [Construct](https://github.com/jonathantorres/construct) - 一个PHP项目的生成器
 * [Phake](https://github.com/jaz303/phake) - 一个PHP克隆库
 * [Phing](https://www.phing.info/) - 一个灵感来自于Apache Ant的PHP项目构建系统
 
@@ -426,7 +430,7 @@
 
 * [Bldr](http://bldr.io/) - 一个构建在Symfony组件上的PHP任务运行器
 * [Jobby](https://github.com/jobbyphp/jobby) - 一个没有修改crontab的PHP定时任务管理器
-* [Robo](https://github.com/consolidation-org/Robo) - 一个面向对象配置的PHP任务运行器
+* [Robo](https://github.com/consolidation/Robo) - 一个面向对象配置的PHP任务运行器
 * [Task](http://taskphp.github.io/) - 一个灵感来源于Grunt和Gulp的纯PHP任务运行器
 
 ## 导航 Navigation
