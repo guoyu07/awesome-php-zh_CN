@@ -101,6 +101,7 @@
 * [Patch Installer](https://github.com/goatherd/patch-installer) - 一个使用Composer安装补丁的库
 * [Prestissimo](https://github.com/hirak/prestissimo) - 一个开启并行安装进程的Composer插件
 * [Satis](https://github.com/composer/satis) - 一个静态Composer存储库的生成器
+* [tooly](https://github.com/tommy-muehle/tooly-composer-script) - 一个在项目中使用Composer管理PHAR文件的库
 * [Toran Proxy](https://toranproxy.com) - 一个静态Composer存储库和代理
 
 ## 框架 Frameworks
@@ -205,7 +206,6 @@
 * [Expressive](https://zendframework.github.io/zend-expressive/) - 基于PSR-7的Zend中间件
 * [PSR7-Middlewares](https://github.com/oscarotero/psr7-middlewares) - 灵感来源于方便的中间件
 * [Relay](https://github.com/relayphp/Relay.Relay) - 一个PHP 5.5 PSR-7的中间件调度器
-* [Slim Middleware](https://github.com/slimphp/Slim-Middleware) - 一个用于Slim的自定义的中间件的集合
 * [Stack](https://github.com/stackphp) - 一个用于Silex/Symfony的可堆叠的中间件的库
 * [zend-stratigility](https://github.com/zendframework/zend-stratigility) - 基于PHP PSR-7之上的中间件之上
 
@@ -282,7 +282,7 @@
 * [DBUnit](https://github.com/sebastianbergmann/dbunit) - 一个PHPUnit的数据库测试库
 * [Faker](https://github.com/fzaninotto/Faker) - 一个伪数据生成库
 * [HTTP Mock](https://github.com/InterNations/http-mock) - 一个在单元测试模拟HTTP请求的库
-* [Kahlan](https://github.com/crysalead/kahlan) - 全栈Unit/BDD测试框架，内置stub，mock和代码覆盖率的支持
+* [Kahlan](https://github.com/kahlan/kahlan) - 全栈Unit/BDD测试框架，内置stub，mock和代码覆盖率的支持
 * [Mink](http://mink.behat.org/en/latest/) - Web验收测试
 * [Mockery](https://github.com/padraic/mockery) - 一个用于测试的模拟对象的库
 * [ParaTest](https://github.com/brianium/paratest) - 一个PHPUnit的并行测试库
@@ -447,6 +447,7 @@
 * [Munee](https://github.com/meenie/munee) - 一个资源优化库
 * [Pipe](https://github.com/CHH/pipe) - 另一个资源管理的管道库
 * [Puli](https://github.com/puli/repository) - 一个检测资源绝对路径的库
+* [BowerPHP](https://bowerphp.org/) - Bower的一个PHP实现，一个web包管理工具
 
 ## 地理位置 Geolocation
 *地理编码地址和使用纬度经度的库*
