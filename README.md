@@ -680,6 +680,7 @@
 * [CacheTool](https://github.com/gordalina/cachetool) - 一个使用命令行清除apc/opcode缓存的工具
 * [Cake Cache](https://github.com/cakephp/cache) - 一个缓存库 (CP)
 * [Doctrine Cache](https://github.com/doctrine/cache) - 一个缓存库
+* [Metaphore](https://github.com/sobstel/metaphore) - 一个缓存失效防范的库，使用信号标记阻止dogpile影响
 * [Stash](https://github.com/tedious/Stash) - 另一个缓存库
 * [Zend Cache](https://github.com/zendframework/zend-cache) - 另一个缓存库 (ZF2)
 
@@ -795,7 +796,7 @@
 * [PHP Brew](https://github.com/phpbrew/phpbrew) - 一个PHP版本管理和安装器
 * [PHP Build](https://github.com/php-build/php-build) - 另一个PHP版本安装器
 * [PHP Env](https://github.com/CHH/phpenv) - 另一个PHP版本管理器
-* [PHP OSX](http://php-osx.liip.ch/) - 一个OSX下的PHP安装器
+* [PHP OSX](https://php-osx.liip.ch/) - 一个OSX下的PHP安装器
 * [PHP Switch](https://github.com/jubianchi/phpswitch) - 另一个PHP版本管理器
 * [VirtPHP](http://virtphp.org/) - 一个创建和管理独立PHP环境的工具
 
@@ -874,7 +875,7 @@
 ## PHP书籍 PHP Books
 *PHP相关的非常好的书籍*
 
-* [Functional Programming in PHP](https://www.phparch.com/books/functional-programming-in-php/) - 这本书将告诉你如何利用PHP5.3+的新功能的认识函数式编程的原则
+* [Functional Programming in PHP](http://www.functionalphp.com) - 这本书将告诉你如何利用PHP5.3+的新功能的认识函数式编程的原则
 * [Grumpy PHPUnit](https://leanpub.com/grumpy-phpunit) - 一本Chris Hartjes关于使用PHPUnit进行单元测试的书
 * [Mastering Object-Orientated PHP](http://www.brandonsavage.net) - 一本Brandon Savage关于PHP面向对象的书
 * [Modern PHP New Features and Good Practices](http://shop.oreilly.com/product/0636920033868.do) - 一本Josh Lockhart关于新的PHP功能和最佳做法的书
