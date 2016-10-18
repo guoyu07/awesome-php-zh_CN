@@ -101,6 +101,7 @@
 * [Patch Installer](https://github.com/goatherd/patch-installer) - 一个使用Composer安装补丁的库
 * [Prestissimo](https://github.com/hirak/prestissimo) - 一个开启并行安装进程的Composer插件
 * [Satis](https://github.com/composer/satis) - 一个静态Composer存储库的生成器
+* [tooly](https://github.com/tommy-muehle/tooly-composer-script) - 一个在项目中使用Composer管理PHAR文件的库
 * [Toran Proxy](https://toranproxy.com) - 一个静态Composer存储库和代理
 
 ## 框架 Frameworks
@@ -114,9 +115,9 @@
 * [PPI Framework 2](http://www.ppi.io) - 一个互操作性框架
 * [Symfony 2](http://symfony.com/) - 一个独立组件组成的框架 (SF2)
 * [Yii2](https://github.com/yiisoft/yii2/) - 另一个PHP框架
-* [Zend Framework 2](http://framework.zend.com) - 另一个由独立组件组成的框架 (ZF2)
+* [Zend Framework 2](https://framework.zend.com) - 另一个由独立组件组成的框架 (ZF2)
 * [Radar](https://github.com/radarphp/Radar.Adr) - 一个基于PHP的Action-Domain-Responder实现
-* [Ice](http://www.iceframework.org/) - 另一个通过C扩展实现的简单快速的PHP框架
+* [Ice](https://www.iceframework.org/) - 另一个通过C扩展实现的简单快速的PHP框架
 
 ## 其他框架 Framework Extras
 *其他Web开发框架*
@@ -129,7 +130,7 @@
 *来自web开发框架的独立组件*
 
 * [CakePHP Plugins](http://plugins.cakephp.org/) - CakePHP插件的目录
-* [Hoa Project](http://hoa-project.net/En/) - 另一个PHP组件包
+* [Hoa Project](https://hoa-project.net/En/) - 另一个PHP组件包
 * [League of Extraordinary Packages](https://thephpleague.com/) - 一个PHP软件开发组
 * [Symfony2 Components](http://symfony.com/doc/master/components/index.html) - Symfony 2组件
 * [Zend Framework 2 Components](https://packages.zendframework.com/) - Zend Framework 2组件
@@ -171,7 +172,7 @@
 * [Plates](http://platesphp.com/) - 一个原生PHP模板库
 * [Smarty](http://www.smarty.net/) - 一个模板引擎
 * [Twig](http://twig.sensiolabs.org/) - 一个全面的模板语言
-* [Tale Jade](http://jade.talesoft.io/) - Jade模版语言的PHP实现
+* [Tale Jade](https://github.com/Talesoft/tale-jade) - Jade模版语言的PHP实现
 
 ## 静态站点生成器 Static Site Generators
 *用来生成web页面的预处理内容的工具*
@@ -202,9 +203,9 @@
 ## 中间件 Middlewares
 *使用中间件构建应用程序的库*
 
+* [Expressive](https://zendframework.github.io/zend-expressive/) - 基于PSR-7的Zend中间件
 * [PSR7-Middlewares](https://github.com/oscarotero/psr7-middlewares) - 灵感来源于方便的中间件
 * [Relay](https://github.com/relayphp/Relay.Relay) - 一个PHP 5.5 PSR-7的中间件调度器
-* [Slim Middleware](https://github.com/slimphp/Slim-Middleware) - 一个用于Slim的自定义的中间件的集合
 * [Stack](https://github.com/stackphp) - 一个用于Silex/Symfony的可堆叠的中间件的库
 * [zend-stratigility](https://github.com/zendframework/zend-stratigility) - 基于PHP PSR-7之上的中间件之上
 
@@ -281,13 +282,14 @@
 * [DBUnit](https://github.com/sebastianbergmann/dbunit) - 一个PHPUnit的数据库测试库
 * [Faker](https://github.com/fzaninotto/Faker) - 一个伪数据生成库
 * [HTTP Mock](https://github.com/InterNations/http-mock) - 一个在单元测试模拟HTTP请求的库
-* [Kahlan](https://github.com/crysalead/kahlan) - 全栈Unit/BDD测试框架，内置stub，mock和代码覆盖率的支持
+* [Kahlan](https://github.com/kahlan/kahlan) - 全栈Unit/BDD测试框架，内置stub，mock和代码覆盖率的支持
 * [Mink](http://mink.behat.org/en/latest/) - Web验收测试
 * [Mockery](https://github.com/padraic/mockery) - 一个用于测试的模拟对象的库
 * [ParaTest](https://github.com/brianium/paratest) - 一个PHPUnit的并行测试库
 * [Peridot](https://github.com/peridot-php/peridot) - 一个事件驱动开发的测试框架
 * [Phake](https://github.com/mlively/Phake) - 另一个用于测试的模拟对象的库
 * [Pho](https://github.com/danielstjules/pho) - 另一个行为驱动开发测试框架
+* [PHP-Mock](https://github.com/php-mock/php-mock) - 一个基于PHP函数的模拟库
 * [PHPSpec](https://github.com/phpspec/phpspec) - 一个基于功能点设计的单元测试库
 * [PHPT](https://qa.php.net/write-test.php) - 一个使用PHP本身的测试工具
 * [PHPUnit](https://github.com/sebastianbergmann/phpunit) - 一个单元测试框架
@@ -299,6 +301,7 @@
 ## 持续集成 Continuous Integration
 *持续集成的库和应用*
 
+* [CircleCI](https://circleci.com) - 一个持续集成平台
 * [GitlabCi](https://about.gitlab.com/gitlab-ci/) - 使用GitLab CI测试、构建、部署你的代码，像TravisCI
 * [Jenkins](https://jenkins.io/index.html) - 一个[PHP支持](http://jenkins-php.org/index.html)的持续集成平台
 * [JoliCi](https://github.com/jolicode/JoliCi) - 一个用PHP编写的由Docker支持的持续集成的客户端
@@ -334,7 +337,7 @@
 * [SensioLabs Security Check](https://security.sensiolabs.org/) - 一个为检查Composer依赖提供安全建议的web工具
 * [TCrypto](https://github.com/timoh6/TCrypto) - 一个简单的键值加密存储库
 * [True Random](https://github.com/pixeloution/true-random) - 使用[www.random.org](https://www.random.org/)生成随机数的库
-* [VAddy](http://vaddy.net) - 一个持续安全的web应用测试平台
+* [VAddy](https://vaddy.net/) - 一个持续安全的web应用测试平台
 * [Zed](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - 一个集成的web应用渗透测试工具
 
 ## 密码 Passwords
@@ -355,7 +358,7 @@
 * [Athletic](https://github.com/polyfractal/athletic) - 一个基于注释的基准检测库
 * [Code Climate](https://codeclimate.com) - 一个自动代码审查工具
 * [Dissect](https://github.com/jakubledl/dissect) - 一个词法和语法分析的工具集合
-* [Exakat](http://www.exakat.io) - 一个PHP的静态分析引擎
+* [Exakat](https://github.com/exakat/exakat) - 一个PHP的静态分析引擎
 * [GrumPHP](https://github.com/phpro/grumphp) - 一个用来保护代码质量的Composer插件
 * [Mondrian](https://github.com/Trismegiste/Mondrian) - 使用图论的代码分析工具
 * [PHP Analyser](https://github.com/scrutinizer-ci/php-analyzer) - 一个分析PHP代码查找缺陷和错误的库
@@ -364,16 +367,19 @@
 * [PHP Manipulator](https://github.com/schmittjoh/php-manipulator) - 一个分析和修改PHP源代码的库
 * [PHP Mess Detector](https://phpmd.org/) - 一个扫描代码缺陷，次优代码，未使用的参数等等的库。
 * [PHP Metrics](https://github.com/phpmetrics/PhpMetrics) - 一个静态测量库
+* [PHP Migration](https://github.com/monque/PHP-Migration) - 一个PHP版本升级的静态分析库
 * [PHP Parser](https://github.com/nikic/PHP-Parser) - 一个PHP编写的PHP解析器
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) - 一个重构PHP代码的命令行工具集
 * [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - 一个比较两个源集和确定适当的应用语义版本的命令行实用程序
+* [phan](https://github.com/etsy/phan) - 一个基于PHP 7+和php-ast扩展的静态分析器
 * [PHPCheckstyle](https://github.com/PHPCheckstyle/phpcheckstyle) - 一个帮助遵守特定的编码惯例的工具
 * [PHPCPD](https://github.com/sebastianbergmann/phpcpd) - 一个检测复制和粘贴代码的库
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - 一个创建可定制依赖图的工具
 * [PHPLOC](https://github.com/sebastianbergmann/phploc) - 一个快速测量PHP项目大小的工具
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) - 一个用于运行质量保证工具的工具(phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - 一个PHP实现的PHP虚拟机
-* [PHPSandbox](https://github.com/fieryprophet/php-sandbox) - 一个PHP沙盒环境
+* [PHPSandbox](https://github.com/Corveda/PHPSandbox) - 一个PHP沙盒环境
+* [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - 一个可视化指标和源代码的工具
 * [Scrutinizer](https://scrutinizer-ci.com/) - 一个审查PHP代码的web工具
 * [UBench](https://github.com/devster/ubench) - 一个简单的微型基准检测库
 
@@ -387,7 +393,7 @@
 * [Galapagos](https://github.com/endel/galapagos) - 语言转换进化
 * [Iter](https://github.com/nikic/iter) - 一个使用生成器提供迭代原语的库
 * [Monad PHP](https://github.com/ircmaxell/monad-php) - 一个简单Monad库
-* [Patchwork](http://antecedent.github.io/patchwork/) - 一个重新定义用户的函数库
+* [Patchwork](http://patchwork2.org/) - 一个重新定义用户的函数库
 * [PHP Option](https://github.com/schmittjoh/php-option) - 一个可选的类型库
 * [Pipeline](https://github.com/thephpleague/pipeline) - 一个管道模式的实现
 * [Ruler](https://github.com/bobthecow/Ruler) - 一个简单的无状态的生产环境规则引擎
@@ -415,15 +421,16 @@
 
 * [Bob](https://github.com/CHH/bob) - 一个简单的项目自动化工具
 * [Box](https://github.com/box-project/box2) - 一个构建PHAR文件的工具
+* [Construct](https://github.com/jonathantorres/construct) - 一个PHP项目的生成器
 * [Phake](https://github.com/jaz303/phake) - 一个PHP克隆库
-* [Phing](http://www.phing.info/) - 一个灵感来自于Apache Ant的PHP项目构建系统
+* [Phing](https://www.phing.info/) - 一个灵感来自于Apache Ant的PHP项目构建系统
 
 ## 任务运行器 Task Runners
 *自动运行任务的库*
 
 * [Bldr](http://bldr.io/) - 一个构建在Symfony组件上的PHP任务运行器
 * [Jobby](https://github.com/jobbyphp/jobby) - 一个没有修改crontab的PHP定时任务管理器
-* [Robo](https://github.com/Codegyre/Robo) - 一个面向对象配置的PHP任务运行器
+* [Robo](https://github.com/consolidation/Robo) - 一个面向对象配置的PHP任务运行器
 * [Task](http://taskphp.github.io/) - 一个灵感来源于Grunt和Gulp的纯PHP任务运行器
 
 ## 导航 Navigation
@@ -440,6 +447,7 @@
 * [Munee](https://github.com/meenie/munee) - 一个资源优化库
 * [Pipe](https://github.com/CHH/pipe) - 另一个资源管理的管道库
 * [Puli](https://github.com/puli/repository) - 一个检测资源绝对路径的库
+* [BowerPHP](https://bowerphp.org/) - Bower的一个PHP实现，一个web包管理工具
 
 ## 地理位置 Geolocation
 *地理编码地址和使用纬度经度的库*
@@ -454,6 +462,7 @@
 
 * [CalendR](http://yohan.giarel.li/CalendR/) - 一个日历管理库
 * [Carbon](https://github.com/briannesbitt/Carbon) - 一个简单的日期时间API扩展
+* [Chronos](https://github.com/cakephp/chronos) - 一个支持可变和不可变日期时间的DateTime API扩展
 * [ExpressiveDate](https://github.com/jasonlewis/expressive-date) - 另一个日期时间API扩展
 * [Moment.php](https://github.com/fightbulc/moment.php) - 灵感来源于Moment.js的PHP DateTime处理库，支持国际化
 
@@ -488,7 +497,6 @@
 * [Money](https://github.com/moneyphp/money) - 一个Fowler金钱模式的PHP实现
 * [OmniPay](https://github.com/thephpleague/omnipay) - 一个框架混合了多网关支付处理的库
 * [Payum](https://github.com/payum/payum) - 一个支付抽象库
-* [Sebastian Money](https://github.com/sebastianbergmann/money) - 另一个处理货币值的库
 * [Shopware](https://github.com/shopware/shopware) - 一个可高度定制的电子商务软件
 * [Swap](https://github.com/florianv/swap) - 一个汇率库
 * [Sylius](http://sylius.org/) - 一个开源的电子商务解决方案
@@ -517,7 +525,7 @@
 * [Doctrine Extensions](https://github.com/Atlantic18/DoctrineExtensions) - 一个Doctrine行为扩展的集合
 * [Doctrine](http://www.doctrine-project.org/) - 一个全面的DBAL和ORM
 * [Eloquent](https://github.com/illuminate/database) - 一个简单的ORM(L5)
-* [LazyRecord](https://github.com/c9s/LazyRecord) - 一个简单、可扩展、高性能的ORM
+* [LazyRecord](https://github.com/corneltek/LazyRecord) - 一个简单、可扩展、高性能的ORM
 * [Pomm](https://github.com/chanmix51/Pomm) - 一个PostgreSQL对象模型管理器
 * [Propel](http://propelorm.org/) - 一个快速的ORM，迁移库和查询构架器
 * [ProxyManager](https://github.com/Ocramius/ProxyManager) - 一个为数据映射生成代理对象的工具集
@@ -672,6 +680,7 @@
 * [CacheTool](https://github.com/gordalina/cachetool) - 一个使用命令行清除apc/opcode缓存的工具
 * [Cake Cache](https://github.com/cakephp/cache) - 一个缓存库 (CP)
 * [Doctrine Cache](https://github.com/doctrine/cache) - 一个缓存库
+* [Metaphore](https://github.com/sobstel/metaphore) - 一个缓存失效防范的库，使用信号标记阻止dogpile影响
 * [Stash](https://github.com/tedious/Stash) - 另一个缓存库
 * [Zend Cache](https://github.com/zendframework/zend-cache) - 另一个缓存库 (ZF2)
 
@@ -684,6 +693,7 @@
 * [Fractal](https://github.com/thephpleague/fractal) - 一个转换复杂数据结构到JSON输出的库
 * [Ginq](https://github.com/akanehara/ginq) - 另一个基于.NET实现的PHP的LINQ库
 * [JsonMapper](https://github.com/cweiske/jsonmapper) - 一个将内嵌JSON结构映射为PHP类的库
+* [Knapsack](https://github.com/DusanKasan/Knapsack) - 一个集合的库，灵感来自Clojure的相关库
 * [PHP Collections](https://github.com/schmittjoh/php-collection) - 一个简单的集合库
 * [PINQ](https://github.com/TimeToogo/Pinq) - 一个基于.NET实现的PHP的LINQ(Language Integrated Query)库
 * [Serializer](https://github.com/schmittjoh/serializer) - 一个序列化和反序列化数据的库
@@ -756,6 +766,7 @@
 * [Lambda PHP](https://github.com/igorw/lambda-php) - 一个PHP中的Lambda计算解析器
 * [LiteCQRS](https://github.com/beberlei/litecqrs-php) - 一个CQRS(命令查询责任分离)库
 * [Metrics](https://github.com/beberlei/metrics) - 一个简单的度量API库
+* [noCAPTCHA](https://github.com/ARCANEDEV/noCAPTCHA) - 一个帮助使用谷歌noCAPTCHA (reCAPTCHA)的工具
 * [Nmap](https://github.com/willdurand/nmap) - 一个[Nmap](https://nmap.org/) PHP包装器
 * [Opengraph](https://github.com/euskadi31/Opengraph) - 一个开放图库
 * [Pagerfanta](https://github.com/whiteoctober/Pagerfanta) - 一个分页库
@@ -785,7 +796,7 @@
 * [PHP Brew](https://github.com/phpbrew/phpbrew) - 一个PHP版本管理和安装器
 * [PHP Build](https://github.com/php-build/php-build) - 另一个PHP版本安装器
 * [PHP Env](https://github.com/CHH/phpenv) - 另一个PHP版本管理器
-* [PHP OSX](http://php-osx.liip.ch/) - 一个OSX下的PHP安装器
+* [PHP OSX](https://php-osx.liip.ch/) - 一个OSX下的PHP安装器
 * [PHP Switch](https://github.com/jubianchi/phpswitch) - 另一个PHP版本管理器
 * [VirtPHP](http://virtphp.org/) - 一个创建和管理独立PHP环境的工具
 
@@ -821,6 +832,7 @@
 * [PHP Queue](https://github.com/CoderKungfu/php-queue) - A一个管理后端队列的应用
 * [MailCatcher](https://github.com/sj26/mailcatcher) - 一个抓取和查看邮件的web工具
 * [Cachet](https://github.com/cachethq/cachet) - 开源状态页面系统
+* [phpBeanstalkdAdmin](https://github.com/mnapoli/phpBeanstalkdAdmin) - 一个Beanstalkd的监控管理页面
 * [phpRedisAdmin](https://github.com/ErikDubbelboer/phpRedisAdmin) - 一个用于管理[Redis](http://redis.io/)数据库的简单web界面
 * [phpPgAdmin](https://github.com/phppgadmin/phppgadmin) - 一个PostgreSQL的web管理工具
 * [phpMyAdmin](https://github.com/phpmyadmin/phpmyadmin) - 一个MySQL/MariaDB的web界面
@@ -863,13 +875,13 @@
 ## PHP书籍 PHP Books
 *PHP相关的非常好的书籍*
 
-* [Functional Programming in PHP](https://www.phparch.com/books/functional-programming-in-php/) - 这本书将告诉你如何利用PHP5.3+的新功能的认识函数式编程的原则
+* [Functional Programming in PHP](http://www.functionalphp.com) - 这本书将告诉你如何利用PHP5.3+的新功能的认识函数式编程的原则
 * [Grumpy PHPUnit](https://leanpub.com/grumpy-phpunit) - 一本Chris Hartjes关于使用PHPUnit进行单元测试的书
 * [Mastering Object-Orientated PHP](http://www.brandonsavage.net) - 一本Brandon Savage关于PHP面向对象的书
 * [Modern PHP New Features and Good Practices](http://shop.oreilly.com/product/0636920033868.do) - 一本Josh Lockhart关于新的PHP功能和最佳做法的书
 * [Modernising Legacy Applications in PHP](https://leanpub.com/mlaphp) - 一本Paul M.Jones关于遗留PHP应用进行现代化的书
 * [PHP 7 Upgrade Guide](https://leanpub.com/php7) - 一本Colin O'Dell的包含所有PHP 7功能和改变的书
-* [PHP Pandas](http://daylerees.com/php-pandas/) - 一本Dayle Rees关于如何学习写PHP的书
+* [PHP Pandas](https://daylerees.com/php-pandas/) - 一本Dayle Rees关于如何学习写PHP的书
 * [Scaling PHP Applications](http://www.scalingphpbook.com) - 一本Steve Corona关于扩展PHP应用程序的电子书
 * [Securing PHP: Core Concepts](https://leanpub.com/securingphp-coreconcepts) - 一本Chris Cornutt关于PHP常见安全条款和实践的书
 * [Signaling PHP](https://leanpub.com/signalingphp) - 一本Cal Evans关于在CLI脚本捕获PCNTL信号的书
@@ -884,7 +896,7 @@
 * [Head First Design Patterns](http://www.headfirstlabs.com/books/hfdp/) - 解说软件设计模式的一本书
 * [Pro Git](https://git-scm.com/book/en/v2) - Scott Chacon和Ben Straub关于Git的一本书
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php) - William Shotts关于Linux命令行的一本书
-* [The Tangled Web — Securing Web Applications](http://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) - Michal Zalewski关于web应用安全的一本书
+* [The Tangled Web — Securing Web Applications](https://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) - Michal Zalewski关于web应用安全的一本书
 * [Understanding Computation](http://computationbook.com) - Tom Stuart关于计算理论的一本书
 * [Vagrant Cookbook](https://leanpub.com/vagrantcookbook) - Erika Heidi关于创建 Vagrant环境的一本书
 
@@ -894,19 +906,19 @@
 * [PHP Town Hall](https://phptownhall.com/) - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
 * [PHP UK Conference](https://www.youtube.com/user/phpukconference/videos) - 一个PHP英国会议的视频集合
 * [Programming with Anthony](https://www.youtube.com/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW) - Anthony Ferrara的视频系列
-* [Taking PHP Seriously](http://www.infoq.com/presentations/php-history) - 来自Facebook Keith Adams 讲述PHP优势
+* [Taking PHP Seriously](https://www.infoq.com/presentations/php-history) - 来自Facebook Keith Adams 讲述PHP优势
 
 ## PHP阅读 PHP Reading
 *PHP相关的阅读资料*
 
-* [Composer Primer](http://daylerees.com/composer-primer/) - Composer初级使用
+* [Composer Primer](https://daylerees.com/composer-primer/) - Composer初级使用
 * [Composer Stability Flags](https://igor.io/2013/02/07/composer-stability-flags.html) - 一篇关于Composer稳定性标志的文章
 * [Composer Versioning](https://igor.io/2013/01/07/composer-versioning.html) - 一篇关于Composer版本的文章
 * [Create Your Own PHP Framework](http://fabien.potencier.org/create-your-own-framework-on-top-of-the-symfony2-components-part-1.html) - 一部Fabien Potencier的关于如何创建你自己的PHP框架的系列文章
 * [Don't Worry About BREACH](http://blog.ircmaxell.com/2013/08/dont-worry-about-breach.html) - 一篇关于BREACH攻击和CSRF令牌的文章
 * [On PHP 5.3, Lambda Functions and Closures](http://fabien.potencier.org/on-php-5-3-lambda-functions-and-closures.html) - 一篇关于lambda函数和闭包的文章
 * [PHP Is Much Better Than You Think](http://fabien.potencier.org/php-is-much-better-than-you-think.html) - 一篇关于PHP语言和生态圈的文章
-* [PHP Package Checklist](http://phppackagechecklist.com/) - A checklist for successful PHP package development.
+* [PHP Package Checklist](http://phppackagechecklist.com/) - 一个成功PHP包开发的清单
 * [PHP Sucks! But I Like It!](http://blog.ircmaxell.com/2012/04/php-sucks-but-i-like-it.html) - 一篇关于PHP利弊的文章
 * [Preventing CSRF Attacks](http://blog.ircmaxell.com/2013/02/preventing-csrf-attacks.html) - 一篇阻止CSRF攻击的文章
 * [Seven Ways to Screw Up BCrypt](http://blog.ircmaxell.com/2012/12/seven-ways-to-screw-up-bcrypt.html) - 一篇关于纠正BCrypt实现的文章
